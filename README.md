@@ -1,3 +1,3 @@
 # cmkyduck.github.io-
 
-https://github.com/cmkyduck/cmkyduck.github.io-/about.html
+https://cmkyduck.github.io/cmkyduck.github.io-/about.html
