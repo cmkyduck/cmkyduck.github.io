@@ -244,19 +244,19 @@ td {
 }
 .two {
 	transform: translateZ(100px);
-	background-image: url(cube/cubeimg1.png);
+	background-image: url(./cube/cubeimg1.png);
 }
 .three {
 	transform: rotateY(90deg) translateZ(100px);
-	background-image: url(cube/cubeimg2.png);
+	background-image: url(./cube/cubeimg2.png);
 }
 .four {
 	transform: rotateY(180deg) translateZ(100px);
-	background-image: url(cube/cubeimg3.png);
+	background-image: url(./cube/cubeimg3.png);
 }
 .five {
 	transform: rotateY(-90deg) translateZ(100px);
-	background-image: url(cube/cubeimg4.png);
+	background-image: url(./cube/cubeimg4.png);
 }
 .six {
 	transform: rotateX(-90deg) translateZ(100px);
