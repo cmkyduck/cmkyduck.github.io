@@ -244,19 +244,18 @@ td {
 }
 .two {
 	transform: translateZ(100px);
-	background-image: url(./cubeimg1.PNG);
 }
 .three {
 	transform: rotateY(90deg) translateZ(100px);
-	background-image: url(./cubeimg2.PNG);
+	background-image: url(cubeimg2.PNG);
 }
 .four {
 	transform: rotateY(180deg) translateZ(100px);
-	background-image: url(./cubeimg3.PNG);
+	background-image: url(cubeimg3.PNG);
 }
 .five {
 	transform: rotateY(-90deg) translateZ(100px);
-	background-image: url(./cubeimg4.PNG);
+	background-image: url(cubeimg4.PNG);
 }
 .six {
 	transform: rotateX(-90deg) translateZ(100px);
