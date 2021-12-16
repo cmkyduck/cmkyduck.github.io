@@ -262,6 +262,41 @@ td {
 	transform: rotateX(-90deg) translateZ(100px);
 }
 
+/*svg*/
+.svgbox {
+	width: 100px;
+}
+
+@keyframes fadeOut {
+
+  0% {
+    opacity: 1;
+    transform: translate3d(0px, 35px, 0);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0px, 0px, 0);
+  }
+
+}
+
+.heart1 {
+  animation: fadeOut 1s infinite;
+}
+
+.heart2 {
+  animation: fadeOut 1.5s infinite;
+}
+
+.heart3 {
+  animation: fadeOut 1.25s infinite;
+}
+
 /*footer*/
 .foot {
   display: inline-block;
