@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+    }
+    .wrapper{
+      width: 202px;
+      height: 202px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .wrapper .circle {
+      animation: rotate_image 3s linear infinite;
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border: #fff solid 1px;
+    }
+    .cir_1 {
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    .cir_2 {
+      border-radius: 69% 31% 33% 67% / 46% 34% 66% 54%;
+    }
+    .cir_3 {
+      border-radius: 50% 50% 20% 80% / 70% 55% 45% 30%;
+    }
+    p {
+      text-align: center;
+      color: #fff;
+    }
+    @keyframes rotate_image{ 100% { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="circle cir_1"></div>
+      <div class="circle cir_2"></div>
+      <div class="circle cir_3"></div>
+      <p>Loading...</p>
+    </div>
+  </body>
+</html>
